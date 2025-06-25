@@ -10,10 +10,15 @@ makepkg -si --noconfirm
 cd ..
 rm -rf yay
 
-sudo pacman -S --noconfirm \
-ttf-font-awesome otf-font-awesome ttf-jetbrains-mono fish pkgfile ttf-dejavu powerline-fonts inetutils\
-telegram-desktop jdk17-openjdk bluez bluez-utils pulseaudio-bluetooth\
-openvpn zathura mpv termdown fuse2 htop lsd pavucontrol
+sudo pacman -S --noconfirm ttf-font-awesome otf-font-awesome ttf-jetbrains-mono 
+sudo pacman -S --noconfirm fish pkgfile ttf-dejavu powerline-fonts inetutils
+sudo pacman -S --noconfirm telegram-desktop 
+sudo pacman -S --noconfirm jdk17-openjdk 
+sudo pacman -S --noconfirm bluez bluez-utils
+sudo pacman -S --noconfirm openvpn 
+sudo pacman -S --noconfirm zathura mpv termdown 
+sudo pacman -S --noconfirm fuse2 htop 
+sudo pacman -S --noconfirm lsd pavucontrol
 
 yay -S --noconfirm hyprshot
 
