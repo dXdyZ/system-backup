@@ -12,7 +12,7 @@ rm -rf yay
 
 sudo pacman -S --noconfirm \
 ttf-font-awesome otf-font-awesome ttf-jetbrains-mono fish pkgfile ttf-dejavu powerline-fonts inetutils\
-neovim telegram-desktop jdk17-openjdk bluez bluez-utils pulseaudio-bluetooth\
+telegram-desktop jdk17-openjdk bluez bluez-utils pulseaudio-bluetooth\
 openvpn zathura mpv termdown fuse2 htop lsd pavucontrol
 
 yay -S --noconfirm hyprshot
@@ -41,7 +41,6 @@ echo "Установка завершена. VPN выключен"
 echo "Копирование конфигов"
 cp -r ~/system-backup/hypr ~/.config/
 cp -r ~/system-backup/kitty ~/.config/
-cp -r ~/system-backup/nvim ~/.config/
 cp -r ~/system-backup/wofi ~/.config/
 cp -r ~/system-backup/mpv ~/.config/
 echo "Копирование конфигов завершено"
