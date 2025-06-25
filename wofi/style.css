@@ -1,0 +1,53 @@
+window {
+  background-color: #1d1d1d;    /* color0 из Kitty */
+  border: 1px solid #303030;    /* цвет неактивных вкладок */
+  border-radius: 8px;
+}
+
+* {
+  font-family: "Jetbrains Mono";
+  color: #deddda;               /* color7 (основной текст) */
+}
+
+#scroll {
+  padding: 0.5rem;
+  background: #242424;          /* фон активных вкладок */
+}
+
+#input {
+  background-color: #303030;    /* фон неактивных вкладок */
+  color: #fcfcfc;               /* текст активных вкладок */
+  border: 1px solid #3A3A3A;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 8px;
+}
+
+#inner-box {
+  margin: 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+}
+
+#img {
+  margin: 10px 10px;
+}
+
+#entry {
+  border-radius: 0.5rem;
+  padding: 8px;
+}
+
+#entry:selected {
+  background-color: #62a0ea;    /* color4 (акцентный синий) */
+  outline: none;
+}
+
+#text:selected {
+  color: #f6f5f4;              /* color15 (яркий белый) */
+}
+
+#entry:selected #text {
+  color: #1d1d1d;             /* цвет фона для контраста */
+}
